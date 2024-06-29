@@ -1,0 +1,34 @@
+{% extends "main/base.html" %}
+{%block content%}
+<main class="main">
+    <div class="saved_room">
+        <h1>LIST ROOM</h1>
+        <a href="#">
+            <div class="room-1">
+                <p>room:asd</p>
+            </div>						
+        </a>
+    </div>
+    <div class="search_room">
+        <h1>Search/Create room</h1>
+        <input type="text" class="input_search" id="room-name-input">
+        <button class="submit_search" id="room-name-submit">Submit</button>
+    </div>
+</main>
+</div>
+<script>
+
+document.querySelector('#room-name-input').focus();
+document.querySelector('#room-name-input').onkeyup = function(e) {
+    if (e.key == 'Enter') {  // enter, return
+        document.querySelector('#room-name-submit').click();
+    }
+};
+
+document.querySelector('#room-name-submit').onclick = function(e) {
+    var roomName = document.querySelector('#room-name-input').value;
+    window.location.pathname = '/chat/' + roomName + '/';
+};
+
+</script>
+{%endblock%}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+	background: #100e19;
+	  font-family: "Playwrite US Trad", cursive;
+  font-style: normal;
+  color: #fff;
+}
+.logo{
+	text-align: center;
+
+}
+.wrapper{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.saved_room{
+	width: 220px;
+	padding: 10px;
+	background: #277027;
+}
+.saved_room>h1{
+	font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.room-1{
+width: 180px;
+background: #b7b7b7;
+padding: 10px;
+margin-top: 10px;
+color: #fff;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.search_room{
+	font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.submit_search{
+	width: 100px;
+height: 36px;
+background: black;
+color: #fff;
+border: none;
+
+}
+.submit_search:hover{
+	cursor: pointer;
+}
+.input_search{
+	width: 200px;
+height: 27px;
+outline: none;
+}
+a{
+	text-decoration: none;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+}
+.non-flex{
+	display: block;
+}
+.chat_field{
+	display: flex;
+}
+.save_btn{
+	border: none;
+	width: 116px;
+	height: 41px;
+	border-radius: 6px;
+	margin-left: -341px;
+
+}
+.chat_view{
+	margin: 0 auto;
+}
+textarea{
+	width: 628px;
+	height: 384px;
+}
+.message_field{
+	margin: 6px auto;
+	width: 384px;
+	
+}
+.send-btn{
+	width: 100px;
+	height: 46px;
+}
+
+.input-mess{
+	width: 250px;
+	height: 40px;
+}
